@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pricing: WebCraft</title>
+    <script src="login.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="../Styling/pricing.css" />
+</head>
+<body> 
+
+
+
+    <div class="header">
+        <a href="index.html">
+        <h1 id="mainheading"><strong>Web</strong>Craft</h1>
+        </a>
+        <hr class="hide"/>
+        <nav class="topnavbar">
+          <ul>
+            <li id="contact"><a href="ContactPage.html" class="Contact">Contact Us</a></li>
+            <li id="pricing"><a href="pricing.html" class="Pricing">Pricing</a></li>
+          </ul>
+         <hr id="headerhr"/>
+        </nav>
+</div>
+
+   
+<h1 id="priceh1">Choose the Perfect Plan for Your Business</h1>
+<p id="pricep">Our plans are designed to grow with your business, integrating AI to build websites in revolutionary ways.</p>
+
+<section class="pricing-plans">
+<div class="plan" id="basic">
+  <h2>Basic</h2>
+  <p class="price">$155.99</p>
+  <p class="description">Perfect for getting started</p>
+  <ul class="features">
+    <li><span class="check">&#10004;</span> Custom Website Design</li>
+    <li><span class="check">&#10004;</span> Basic SEO</li>
+    <li><span class="check">&#10004;</span> 1 Month Support</li>
+    <li><span class="check">&#10004;</span>Up to 3 custom pages</li>
+  </ul>
+  <button class="select-plan" id="b1">Contact Us</button>
+</div>
+<div class="plan" id="pro">
+    <h2 id="pop">Most Popular</h2>
+  <h2>Pro</h2>
+  <p class="price">$209.99</p>
+  <p class="description">Advanced features for growing businesses</p>
+  <ul class="features">
+    <li><span class="check">&#10004;</span> Custom Website Design</li>
+    <li><span class="check">&#10004;</span> Advanced SEO</li>
+    <li><span class="check">&#10004;</span> 2 Months Support</li>
+    <li><span class="check">&#10004;</span> AI Integration</li>
+    <li><span class="check">&#10004;</span> Up to 5 custom pages</li>
+  </ul>
+  <button class="select-plan" id="b2">Contact Us</button>
+</div>
+<div class="plan" id="elite">
+  <h2>Elite</h2>
+  <p class="price">$259.99</p>
+  <p class="description">Premium services for high-demand needs</p>
+  <ul class="features">
+    <li><span class="check">&#10004;</span> Custom Website Design</li>
+    <li><span class="check">&#10004;</span> Premium SEO</li>
+    <li><span class="check">&#10004;</span> 3 Months Support</li>
+    <li><span class="check">&#10004;</span> AI Integration</li>
+    <li><span class="check">&#10004;</span> Up to 7 custom pages</li>
+  </ul>
+  <button class="select-plan" id="b3">Contact Us</button>
+</div>
+<div class="plan" id="ultimate">
+    
+    <h2 id="pop">Best Value</h2>
+  <h2>Ultimate</h2>
+  <p class="price">$499.95</p>
+  <p class="description">All-inclusive package for ultimate performance</p>
+  <ul class="features">
+    <li><span class="check">&#10004;</span> Custom Website Design</li>
+    <li><span class="check">&#10004;</span> Ultimate SEO</li>
+    <li><span class="check">&#10004;</span> 3 Months Support</li>
+    <li><span class="check">&#10004;</span> AI Integration</li>
+    <li><span class="check">&#10004;</span> Up to 12 Custom Pages</li>
+    <li><span class="check">&#10004;</span> Custom Site A-I Chatbot</li>
+  </ul>
+  <button class="select-plan" id="4">Contact Us</button>
+</div>
+</section>
+
+ 
+<section class="guarantees">
+    <h2>Our Guarantees</h2>
+    <div class="guarantee-content">
+      <div class="guarantee-item">
+        <h3>100% Satisfaction</h3>
+        <p>We guarantee that you will be 100% satisfied with our service or your money back.</p>
+      </div>
+      <div class="guarantee-item" id="Support">
+        <h3>Support</h3>
+        <p>Our team is available to assist you with any issues or questions.</p>
+      </div>
+      <div class="guarantee-item">
+        <h3>Quality Assurance</h3>
+        <p>We ensure the highest quality in every project we undertake.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="discount">
+    <h2>We Are Cheaper Than Traditional Agencies!</h2>
+    <div class="discount-content">
+      <p>Our efficient processes and low overhead allow us to offer unbeatable prices.</p>
+      <div class="banner">
+        <div class="banner-container">
+          <a href="#pricing" class="banner-link">100% Satisfaction Guarantee or Your Money Back</a>
+          <a href="#pricing" class="banner-link">Cheaper than Traditional Agencies</a>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <h2>WebCraft</h2>
+      <p>&copy; 2024 WebCraft. All Rights Reserved.</p>
+    </div
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+    
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
+
+
+
+How it Works: Contact us with what you want your website to be/what you want it to do, along with any ideas for what it should look like. We then provide a cost, and the website's building will start when your transaction is complete (Cash Only). We will also provide a time estimate and updates on the progress of your sites construction. Once the site is finished, we transfer it to your domain (you must have a domain or a github domain will be used), and you finalize any things you would like to change. If you are not satisfied, you will get a 100% cash refund and we will take down the site.

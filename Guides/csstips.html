@@ -1,0 +1,128 @@
+Selectors:
+
+Use ".YourClass" For <class> Elements.
+Use "#YourID" For <id> Attributes.
+Use "*" For ALL the elements on a page.
+Use "[Targeted Attribute]" To style all elements with a specific attribute.
+Use "Element[href/src*='Keyword']" To target all sources with a keyword in the link/url.
+Use "Element.Class" To target all elements with a specific class.
+Use ".class element" To target all descendants of the element.
+Use "element,
+       .class" To make a rule set that targets two selectors without having to make 2 rulesets.
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       Declarations:
+
+
+- Use the format :
+Targeted Element{
+    
+    Property:Value;
+
+}
+
+-"height" and "width" declares the height and width of an elements box
+
+-"color" declares the color of the element
+
+-"background-color" declares the highlight or background of an element
+
+-"Font-family" declares the font of the element
+
+-"Font-weight" declares the boldness of the element
+
+-"text-transform" can make the text lowercase, uppercase, etc
+
+-"font-size" can change the size of the font in pixels.
+
+-"text-align" can make the text aligned in the left, right, center, or spaced out
+
+-"opacity" declares the transparency of an element
+
+-"background-image" sets the background of an element, syntax is:
+
+.exampleclass {
+    background-image: url('https://www.example.com/image.jpg');
+  }
+  
+-"!important" after the value and before the ";", ovverides any rule and should not be used lightly.
+
+-"background: linear-gradient(direction, color, color, color)"creates a gradient background for an element
+
+-"border" is the border of an element, in the syntax of "border:#px style color;"
+
+-"border-radius" sets the roundness of the border, higher px is more round.
+
+-"padding" sets the distance between the element and it's border.
+
+-"margin" sets the space outside the box.
+
+-" margon:0 auto" sets the margin of the element to center automatically.
+
+-"min-height, min-width, max-height, max-width" sets the minium and maximum dimensions of the element.
+
+-"overflow" sets what happnes when the element spills out the box. It's types are, scroll, hidden and visible.
+
+-"visibility:" sets the visibiliy of an element. It can be set to "hidden" or "visible", or "collapse".
+
+
+
+
+
+
+
+
+
+Pseuodo-Class:
+
+":hover" styles an element when a user hovers over it.
+":active" styles an element when the user activates it, such as pressing a button.
+":focus" styles an element when the user selects it, such as clicking on a text box.
+
+Multi Class Selectors:
+
+Use multiple classes in html to target two differnt things. Ex:
+
+HTML:
+<h1 class="Blue Bold">Bold and Blue Headline</h1>
+
+<h1 class="Orange Bold">Bold and Orange Headline</h1>
+
+CSS:
+.Bold{
+
+    font-weight:Bold;
+}
+
+.Blue{
+
+    Color:Blue;
+}
+
+.Orange{
+
+    Color:Orange;
+}
+
+Specificity:
+
+In CSS, you can write code that will override a ruleset if it is more specific. Heres the rank, from Least to Most
+
+Type (ex. h1)
+Class (ex. Class='heading')
+ID (ex. Id="Main-Heading")

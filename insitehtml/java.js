@@ -32,3 +32,107 @@ document.addEventListener('DOMContentLoaded', () => {
         button.style.transform = 'scale(1)';
     });
 });
+
+
+
+
+
+
+
+
+
+
+// Header Shrink Effect on Scroll
+window.addEventListener('scroll', function() {
+    const header = document.querySelector('header');
+    if (window.scrollY > 50) {  // When scroll position is more than 50px
+        header.classList.add('shrink');
+    } else {
+        header.classList.remove('shrink');
+    }
+});
+
+// Fade-in Effect on Scroll for Cards
+window.addEventListener('scroll', function() {
+    const cards = document.querySelectorAll('.card');
+    cards.forEach(card => {
+        const cardPosition = card.getBoundingClientRect();
+        if (cardPosition.top >= 0 && cardPosition.bottom <= window.innerHeight) {
+            card.classList.add('visible');
+        }
+    });
+});
+
+// Optional: Add Fade-in effect to elements on page load
+window.addEventListener('load', function() {
+    const fadeInElements = document.querySelectorAll('.fade-in');
+    fadeInElements.forEach(element => {
+        element.classList.add('fade-in');
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const images = document.querySelectorAll('.carousel-image');
+const prevButton = document.getElementById('prev');
+const nextButton = document.getElementById('next');
+
+let currentIndex = 0;
+
+// Show the current image based on the index
+function showImage(index) {
+  images.forEach((img, i) => {
+    img.classList.toggle('active', i === index);
+  });
+}
+
+// Go to the next image
+function nextImage() {
+  currentIndex = (currentIndex + 1) % images.length;
+  showImage(currentIndex);
+}
+
+// Go to the previous image
+function prevImage() {
+  currentIndex = (currentIndex - 1 + images.length) % images.length;
+  showImage(currentIndex);
+}
+
+// Event listeners for buttons
+nextButton.addEventListener('click', nextImage);
+prevButton.addEventListener('click', prevImage);
+
+// Auto-play carousel every 3 seconds
+setInterval(nextImage, 3000);
